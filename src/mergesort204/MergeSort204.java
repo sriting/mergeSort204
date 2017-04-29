@@ -1,9 +1,7 @@
 package mergesort204;
 
 /**
- * @Project CSE204 assignment 1
- * @Groupmember Cai Jiaren, Chong Xiaonan, Luo Yuning, Xu Yi, Zhu Juntao.
- * @Author Cai Jiaren, Chong Xiaonan.
+ * @Author sriting
  */
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -37,7 +35,7 @@ public class MergeSort204 {
     static int sorts=0;
     static int splitf = 1;
     static int splits = 1;
-    static boolean paintOnce = false;
+    static boolean paintOnce = true;
 
     public static void main(String args[]){
         JMergeSort ms = new JMergeSort();
@@ -154,7 +152,7 @@ public class MergeSort204 {
                     }
                 }
             }
-            paintOnce = true; //防止paint画两次 //avoid the paint() to automatically draw twice.
+            paintOnce = false; //防止paint画两次 //avoid the paint() to automatically draw twice.
             
         }
     }

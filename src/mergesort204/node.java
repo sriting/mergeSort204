@@ -1,9 +1,7 @@
 package mergesort204;
 
 /**
- * @Project CSE204 assignment 1
- * @Groupmember Cai Jiaren, Chong Xiaonan, Luo Yuning, Xu Yi, Zhu Juntao.
- * @Author Cai Jiaren, Chong Xiaonan.
+ * @Author sriting.
  */
 public class node {
     String value; 
